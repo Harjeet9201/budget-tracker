@@ -1,0 +1,143 @@
+*{
+    font-size: 15px;
+}
+
+.layout-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    width: 100%;
+    background-color: black;
+    padding: 5px 20px 5px 20px;
+}
+
+.nav-wrapper {
+    display: flex;
+    gap: 50px;
+}
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu-wrapper a {
+    text-decoration: none;
+}
+.menu-wrapper a:hover {
+    color: #e49425;
+}
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.menu-item {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logoutBtn {
+    color: orange;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.logoutBtn :hover {
+    color: red;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.content-area {
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+}
+
+.sideBar {
+    width: 20%;
+    background-color: black;
+}
+
+.container{
+    margin-top:100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.counter-box {
+	display: block;
+	background: #f6f6f6;
+	padding: 40px 20px 37px;
+	text-align: center
+}
+
+.counter-box p {
+	margin: 5px 0 0;
+	padding: 0;
+	color: #909090;
+	font-size: 18px;
+	font-weight: 500
+}
+
+.counter-box img {
+	width: 50px;
+}
+
+.counter { 
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	color: #666;
+	line-height: 28px
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Custom styles for form and table */
+.card-header {
+    background-color: #f8f9fa;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.btn {
+    border-radius: 0.25rem;
+}
+
+.alert-danger {
+    border-radius: 0.25rem;
+}
+
+
+
